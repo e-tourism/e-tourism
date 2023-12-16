@@ -25,25 +25,32 @@ const Home = async ({ searchParams }: HomeProps) => {
   }
 
   return (
+    
     <ClientOnly>
+
       <Container>
-          <div
+          {/* <div
             className="
                 flex-row
                 grid-rows-1 
                 pt-24
             "
           > 
-            <h1 className="font-bold text-blue-800">Liste des sites souristiques</h1>
-          </div>
+            <h1 className="font-bold text-blue-800" >Liste des sites touristique</h1>
+          </div> */}
+
+        <div className="bg-gradient-to-r pt-16 pb-4 from-red-600 via-yellow-400 via-red-600 to-red-700 h-40 mx-auto rounded-lg shadow-lg flex items-center justify-center text-center">
+              <h1 className="text-3xl font-bold font-abril-fatface pt-6 text-black items-center justify-center text-center">Liste des sites touristiques</h1>
+        </div>
       </Container>
       
       
       <Container>
-       
+      <br /><br />
         <div 
           className="
-            pt-15
+            pt-18
+     
             grid 
             grid-cols-1 
             sm:grid-cols-2 
@@ -54,7 +61,7 @@ const Home = async ({ searchParams }: HomeProps) => {
             gap-8
           "
         >
-
+           
           {/* List of sites  */}
           {listings.map((listing: any) => (
             <ListingCard
@@ -67,9 +74,8 @@ const Home = async ({ searchParams }: HomeProps) => {
         </div>
       </Container>
 
-      <hr />
 
-      <Container>
+      {/* <Container>
           <div
             className="
                 pt-16
@@ -80,9 +86,9 @@ const Home = async ({ searchParams }: HomeProps) => {
           > 
             <h1 className="font-bold text-blue-800">Liste des évènements</h1>
           </div>
-      </Container>
+      </Container> */}
 
-      <Container>
+      {/* <Container>
        
         <div 
           className="
@@ -98,7 +104,7 @@ const Home = async ({ searchParams }: HomeProps) => {
           "
         >
 
-          {/* List of Event */}
+         
            {listings.map((listing: any) => (
             <ListingCard
               currentUser={currentUser}
@@ -108,7 +114,7 @@ const Home = async ({ searchParams }: HomeProps) => {
           ))}
 
         </div>
-      </Container>
+      </Container> */}
     
     </ClientOnly>
   )

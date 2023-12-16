@@ -23,77 +23,72 @@ import Container from '../Container';
 
 export const categories = [
   {
-    label: 'Beach',
-    icon: TbBeach,
-    description: 'This property is close to the beach!',
-  },
-  {
-    label: 'Windmills',
-    icon: GiWindmill,
-    description: 'This property is has windmills!',
-  },
-  {
-    label: 'Modern',
-    icon: MdOutlineVilla,
-    description: 'This property is modern!'
-  },
-  {
-    label: 'Countryside',
-    icon: TbMountain,
-    description: 'This property is in the countryside!'
-  },
-  {
-    label: 'Pools',
-    icon: TbPool,
-    description: 'This is property has a beautiful pool!'
-  },
-  {
-    label: 'Islands',
-    icon: GiIsland,
-    description: 'This property is on an island!'
-  },
-  {
-    label: 'Lake',
-    icon: GiBoatFishing,
-    description: 'This property is near a lake!'
-  },
-  {
-    label: 'Skiing',
-    icon: FaSkiing,
-    description: 'This property has skiing activies!'
-  },
-  {
-    label: 'Castles',
-    icon: GiCastle,
-    description: 'This property is an ancient castle!'
-  },
-  {
-    label: 'Caves',
-    icon: GiCaveEntrance,
-    description: 'This property is in a spooky cave!'
-  },
-  {
-    label: 'Camping',
-    icon: GiForestCamp,
-    description: 'This property offers camping activities!'
-  },
-  {
-    label: 'Arctic',
+    label: 'Artisanat',
     icon: BsSnow,
-    description: 'This property is in arctic environment!'
+    description: 'cette categorie liste tous les sites artisanals de la ville de maroua ',
   },
   {
-    label: 'Desert',
-    icon: GiCactus,
-    description: 'This property is in the desert!'
+    label: 'Barrages',
+    icon: TbPool,
+    description: 'cette categorie liste tous les barrages de la ville de maroua ',
   },
   {
-    label: 'Barns',
+    label: 'Chefferies',
     icon: GiBarn,
-    description: 'This property is in a barn!'
+    description: 'Cette categorie liste tous les Chefferies et palais de la region de l Extreme Nord!',
   },
   {
-    label: 'Lux',
+    label: 'Culturel',
+    icon: GiWindmill,
+    description: 'Cette categorie liste tous les centres culturels de la region de l Extreme Nord!',
+  },
+  {
+    label: 'Habitats',
+    icon: MdOutlineVilla,
+    description: 'Cette categorie liste tous les habitats de la region de l Extreme Nord'
+  },
+  {
+    label: 'Lacs',
+    icon: TbMountain,
+    description: 'Cette categorie liste tous les Lacs et Mares de la region de l Extreme Nord'
+  },
+  {
+    label: 'Lamidat',
+    icon: GiCastle,
+    description: 'Cette categorie liste tous les lamidats de la region de l Extreme Nord'
+  },
+  {
+    label: 'Marches',
+    icon: TbPool,
+    description: 'Cette categorie liste tous les marches de la region de l Extreme Nord'
+  },
+  {
+    label: 'Monts',
+    icon: TbPool,
+    description: 'Cette categorie liste tous les cols, les pics, les grottes, les monts et les tours de la region de l Extreme Nord'
+  },
+  {
+    label: 'Musees',
+    icon: GiIsland,
+    description: 'Cette categorie liste tous les Musees de la region de l Extreme Nord'
+  },
+  {
+    label: 'Parcs',
+    icon: GiBoatFishing,
+    description: 'Cette categorie liste tous les parcs de la region de l Extreme Nord'
+  },
+  {
+    label: 'Paysages',
+    icon: GiForestCamp,
+    description: 'Cette categorie liste tous les paysages de la region de l Extreme Nord'
+  },
+  {
+    label: 'Villages',
+    icon: GiCaveEntrance,
+    description: 'Cette categorie liste tous les villages de la region de l Extreme Nord'
+  },
+  {
+    label: 'Autres sites',
     icon: IoDiamond,
     description: 'This property is brand new and luxurious!'
   }
